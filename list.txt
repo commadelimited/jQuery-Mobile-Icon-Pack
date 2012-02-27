@@ -1,0 +1,34 @@
+email
+file
+help / question mark 
+foursquare crown
+facebook
+twitter
+dollar
+euro
+pound sterling
+apple
+rss
+wifi
+chat bubble
+trashcan 
+bell
+heart
+map pin
+bell
+wrench
+play
+pause
+stop
+music note
+person
+phone
+power
+lock           
+flag
+lightning bolt
+calendar
+android
+
+link / chain
+edit / pencil
