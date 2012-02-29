@@ -1,3 +1,9 @@
+/*
+	jQuery Mobile Icon Pack
+	andy matthews
+	@commadelimited
+*/
+
 /* Icons
 -----------------------------------------------------------------------------------------------------------*/
 
@@ -21,6 +27,15 @@
 	background: rgba(255,255,255,.3);
 	background-image: url('images/icons-18-black-pack.png');
 	background-repeat: no-repeat;
+}
+
+/* restore default loading image */
+.ui-icon-loading {
+	background-image: url("images/ajax-loader.png");
+	background-size: 35px 35px;
+	border-radius: 20px 20px 20px 20px;
+	height: 40px;
+	width: 40px;
 }
 
 /* HD/"retina" sprite
