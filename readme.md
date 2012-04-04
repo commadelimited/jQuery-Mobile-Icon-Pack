@@ -8,8 +8,7 @@ Newly added is an entire icon set using Twitter Bootstrap's [Font Awesome](http:
 
 ## Examples
 
-[View the Original Icons](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/original/)
-[View the Font Awesome Icons](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/font-awesome/)
+[View the Original Icons](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/original/) | [View the Font Awesome Icons](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/font-awesome/)
 
 ![18px icons](http://andymatthews.net/code/jquery-mobile-icon-pack/original/images/icons-18-black-pack.png)
 ![Font Awesome icons](http://andymatthews.net/code/jquery-mobile-icon-pack/font-awesome/faicons.png)
