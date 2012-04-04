@@ -4,7 +4,7 @@ Extending jQuery Mobile's default icon set.
 
 This repository offers two options. A set of 33 custom icons (the original Icon Pack). Icon categories include currency symbols, media control, social media, common application icons, and more. It also cleans up the original icons and makes them a little sharper. It also includes crisp hi-res icons for retina displays. The icon pack overrides the default icon set completely.
 
-Newly added is an entire icon set using Twitter Bootstrap's [Font Awesome](http://fortawesome.github.com/Font-Awesome/). 140 icons which cover just about icon you'd need in your application. The Font Awesome collection allows you to use these icons in conjunction with jQuery Mobile's default icon set.
+Newly added is an entire icon set using Twitter Bootstrap's [Font Awesome](http://fortawesome.github.com/Font-Awesome/). 140 icons which cover just about any icon you'd need in your application. The Font Awesome collection allows you to use these icons in conjunction with jQuery Mobile's default icon set.
 
 ## Examples
 
