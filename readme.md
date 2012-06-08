@@ -22,3 +22,9 @@ Drop `jqm-icon-pack-1.1-original.css` and the associated images folder into your
 
 ## Font Awesome Icon Pack Usage
 Drop `jqm-icon-pack-1.1-fa.css` and the associated font folder into your project. Font files are relative to the CSS file just like the original icons are. Use them just as you would the standard icons.
+
+## My License
+Dual license: MIT/GPL
+
+## Font Awesome License
+Version 2.0 of the Font Awesome font, CSS, and LESS files are licensed under CC BY 3.0: http://creativecommons.org/licenses/by/3.0/ A mention of 'Font Awesome - http://fortawesome.github.com/Font-Awesome' in human-readable source code is considered acceptable attribution (most common on the web). If human readable source code is not available to the end user, a mention in an 'About' or 'Credits' screen is considered acceptable (most common in desktop or mobile software).
