@@ -6,6 +6,8 @@ This repository offers two options. A set of 33 custom icons (the original Icon 
 
 Newly added is an entire icon set using Twitter Bootstrap's [Font Awesome](http://fortawesome.github.com/Font-Awesome/). 140 icons which cover just about any icon you'd need in your application. The Font Awesome collection allows you to use these icons in conjunction with jQuery Mobile's default icon set.
 
+Included in the Font Awesome icon set are all original icons, as well as the extended icons.
+
 ## Examples
 
 [View the Original Icons](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/original/) | [View the Font Awesome Icons](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/font-awesome/)
