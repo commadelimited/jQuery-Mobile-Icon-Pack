@@ -15,6 +15,7 @@ Included in the Font Awesome icon set are all original icons, as well as the ext
 ![18px icons](http://andymatthews.net/code/jquery-mobile-icon-pack/original/images/icons-18-black-pack.png)
 ![Font Awesome icons](http://andymatthews.net/code/jquery-mobile-icon-pack/font-awesome/faicons.png)
 
+
 ## Quick start
 
 Clone the git repo - `git clone git@github.com:commadelimited/jQuery-Mobile-Icon-Pack.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/zipball/master)
