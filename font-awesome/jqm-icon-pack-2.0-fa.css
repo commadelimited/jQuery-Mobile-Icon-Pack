@@ -19,6 +19,101 @@
 	margin: 1px 1px 2px 2px !important;
 }
 
+/* supporting original icons */
+.ui-icon-plus, .ui-icon-minus, .ui-icon-delete, .ui-icon-arrow-r,
+.ui-icon-arrow-l, .ui-icon-arrow-u, .ui-icon-arrow-d, .ui-icon-check,
+.ui-icon-gear, .ui-icon-refresh, .ui-icon-forward, .ui-icon-back,
+.ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-search, .ui-icon-searchfield:after, 
+.ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on, .ui-icon-email , .ui-icon-page,
+.ui-icon-question , .ui-icon-foursquare, .ui-icon-dollar , .ui-icon-euro,
+.ui-icon-pound , .ui-icon-apple , .ui-icon-chat , .ui-icon-trash , .ui-icon-mappin , .ui-icon-direction,
+.ui-icon-heart , .ui-icon-wrench , .ui-icon-play , .ui-icon-pause , .ui-icon-stop , .ui-icon-person , .ui-icon-music,
+.ui-icon-wifi , .ui-icon-phone , .ui-icon-power ,
+.ui-icon-lightning , .ui-icon-drink , .ui-icon-android {
+	background-image: url('images/icons-18-white-pack.png') !important;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 240dpi) {
+	
+	.ui-icon-plus, .ui-icon-minus, .ui-icon-delete, .ui-icon-arrow-r,
+	.ui-icon-arrow-l, .ui-icon-arrow-u, .ui-icon-arrow-d, .ui-icon-check,
+	.ui-icon-gear, .ui-icon-refresh, .ui-icon-forward, .ui-icon-back,
+	.ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-search, .ui-icon-searchfield:after, 
+	.ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on, .ui-icon-email , .ui-icon-page,
+	.ui-icon-question , .ui-icon-foursquare, .ui-icon-dollar , .ui-icon-euro,
+	.ui-icon-pound , .ui-icon-apple , .ui-icon-chat , .ui-icon-trash , .ui-icon-mappin , .ui-icon-direction,
+	.ui-icon-heart , .ui-icon-wrench , .ui-icon-play , .ui-icon-pause , .ui-icon-stop , .ui-icon-person , .ui-icon-music,
+	.ui-icon-wifi , .ui-icon-phone , .ui-icon-power ,
+	.ui-icon-lightning , .ui-icon-drink , .ui-icon-android {
+		background-image: url('images/icons-36-white-pack.png');
+		-moz-background-size: 774px 54px;
+		-o-background-size: 774px 54px;
+		-webkit-background-size: 774px 54px;
+		background-size: 774px 54px;
+	}
+	.ui-icon-alt {
+		background-image: url('images/icons-36-black-pack.png'	);
+	}
+}
+
+/* first row */
+.ui-icon-plus { background-position: 0px 1px !important; }
+.ui-icon-minus { background-position: -36px 1px !important; }
+.ui-icon-delete { background-position: -71px 1px !important; }
+.ui-icon-arrow-r { background-position: -107px 1px !important; }
+.ui-icon-arrow-l { background-position: -143px 1px !important; }
+.ui-icon-arrow-u { background-position: -179px 1px !important; }
+.ui-icon-arrow-d { background-position: -215px 1px !important; }
+.ui-icon-check { background-position: -251px 1px !important; }
+.ui-icon-gear { background-position: -287px 1px !important; }
+.ui-icon-refresh { background-position: -323px 1px !important; }
+.ui-icon-forward { background-position: -359px 1px !important; }
+.ui-icon-back { background-position: -396px -0 !important; }
+.ui-icon-grid { background-position: -431px 1px !important; }
+.ui-icon-star { background-position: -467px 1px !important; }
+.ui-icon-alert { background-position: -503px 1px !important; }
+.ui-icon-info { background-position: -539px 1px !important; }
+.ui-icon-home { background-position: -575px 1px !important; }
+.ui-icon-search,.ui-icon-searchfield:after { background-position: -611px 0px !important; }
+.ui-icon-checkbox-off { background-position: -681px 1px !important; }
+.ui-icon-checkbox-on { background-position: -647px 1px !important; }
+.ui-icon-radio-off { background-position: -752px 1px !important; }
+.ui-icon-radio-on { background-position: -717px 1px !important; }
+
+/* begin icon pack definitions */
+/* second row */
+.ui-icon-email { background-position: 1px -17px !important; }
+.ui-icon-page { background-position: -36px -17px !important; }
+.ui-icon-question { background-position: -71px -17px !important; }
+.ui-icon-foursquare { background-position: -107px -17px !important; }
+.ui-icon-dollar { background-position: -215px -17px !important; }
+.ui-icon-euro { background-position: -251px -17px !important; }
+.ui-icon-pound { background-position: -287px -17px !important; }
+.ui-icon-apple { background-position: -323px -17px !important; }
+.ui-icon-chat { background-position: -359px -17px !important; }
+.ui-icon-trash { background-position: -395px -17px !important; }
+.ui-icon-mappin { background-position: -467px -17px !important; }
+.ui-icon-direction { background-position: -503px -17px !important; }
+.ui-icon-heart { background-position: -539px -17px !important; }
+.ui-icon-wrench { background-position: -575px -17px !important; }
+.ui-icon-play { background-position: -611px -17px !important; }
+.ui-icon-pause { background-position: -647px -17px !important; }
+.ui-icon-stop { background-position: -683px -17px !important; }
+.ui-icon-person { background-position: -719px -17px !important; }
+.ui-icon-music { background-position: -755px -17px !important; }
+
+/* third row */
+.ui-icon-wifi { background-position: -35px -34px !important; }
+.ui-icon-phone { background-position: -72px -36px !important; }
+.ui-icon-power { background-position: -107px -35px !important; }
+.ui-icon-lightning { background-position: -251px -35px !important; }
+.ui-icon-android { background-position: -323px -35px !important; }
+
+
+
+
 /* begin primary declarations */
 @font-face {
 	font-family: 'FontAwesome';
@@ -48,7 +143,7 @@
     readers do not read off random characters that represent icons */
 .ui-icon-glass:before                { content: "\f000"; margin-top: 2px; }
 .ui-icon-music:before                { content: "\f001"; margin-left: 1px; margin-top: 2px; }
-.ui-icon-search:before               { content: "\f002"; }
+.ui-icon-fasearch:before               { content: "\f002"; }
 .ui-icon-envelope:before             { content: "\f003"; margin-left: -1px;
 										margin-left: 2px;
 										margin-top: 1px;
@@ -57,7 +152,7 @@
 										margin-left: 3px;
 										margin-top: 2px;
 									}
-.ui-icon-star:before                 { content: "\f005"; }
+.ui-icon-fastar:before                 { content: "\f005"; }
 .ui-icon-star-empty:before           { content: "\f006"; }
 .ui-icon-user:before                 { content: "\f007"; margin-left: 4px; }
 .ui-icon-film:before                 { content: "\f008"; margin-left: 2px; }
@@ -73,7 +168,7 @@
 .ui-icon-signal:before               { content: "\f012"; margin-left: -1px; }
 .ui-icon-cog:before                  { content: "\f013"; margin-left: 3px; margin-top: 2px; }
 .ui-icon-trash:before                { content: "\f014"; }
-.ui-icon-home:before                 { content: "\f015"; }
+.ui-icon-fahome:before                 { content: "\f015"; }
 .ui-icon-file:before                 { content: "\f016"; }
 .ui-icon-time:before                 { content: "\f017"; margin-top: 2px; }
 .ui-icon-road:before                 { content: "\f018"; }
@@ -85,7 +180,7 @@
 .ui-icon-repeat:before               { content: "\f01e"; margin-top: 2px; }
 
 /* \f020 is not a valid unicode character. all shifted one down */
-.ui-icon-refresh:before              { content: "\f021"; margin-top: 2px; }
+.ui-icon-farefresh:before              { content: "\f021"; margin-top: 2px; }
 .ui-icon-list-alt:before             { content: "\f022"; margin-left: 3px; margin-top: 2px; }
 .ui-icon-lock:before                 { content: "\f023"; }
 .ui-icon-flag:before                 { content: "\f024"; margin-top: 2px; }
@@ -123,7 +218,7 @@
 .ui-icon-tint:before                 { content: "\f043"; }
 .ui-icon-edit:before                 { content: "\f044"; }
 .ui-icon-share:before                { content: "\f045"; }
-.ui-icon-check:before                { content: "\f046"; }
+.ui-icon-facheck:before                { content: "\f046"; }
 .ui-icon-move:before                 { content: "\f047"; }
 .ui-icon-step-backward:before        { content: "\f048"; }
 .ui-icon-fast-backward:before        { content: "\f049"; }
@@ -131,7 +226,7 @@
 .ui-icon-play:before                 { content: "\f04b"; margin-left: 6px; margin-top: 2px; }
 .ui-icon-pause:before                { content: "\f04c"; margin-top: 2px; }
 .ui-icon-stop:before                 { content: "\f04d"; margin-top: 2px; }
-.ui-icon-forward:before              { content: "\f04e"; }
+.ui-icon-faforward:before              { content: "\f04e"; }
 
 .ui-icon-fast-forward:before         { content: "\f050"; }
 .ui-icon-step-forward:before         { content: "\f051"; }
@@ -156,8 +251,8 @@
 .ui-icon-share-alt:before            { content: "\f064"; }
 .ui-icon-resize-full:before          { content: "\f065"; }
 .ui-icon-resize-small:before         { content: "\f066"; }
-.ui-icon-plus:before                 { content: "\f067"; }
-.ui-icon-minus:before                { content: "\f068"; }
+.ui-icon-faplus:before                 { content: "\f067"; }
+.ui-icon-faminus:before                { content: "\f068"; }
 .ui-icon-asterisk:before             { content: "\f069"; margin-top: 2px; }
 .ui-icon-exclamation-sign:before     { content: "\f06a"; margin-top: 2px; }
 .ui-icon-gift:before                 { content: "\f06b"; }
