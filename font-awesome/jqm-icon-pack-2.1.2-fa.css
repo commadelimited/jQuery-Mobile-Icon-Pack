@@ -22,11 +22,6 @@
 	margin: -10px -10px auto auto !important;	
 }
 
-/* fix for icons within header bars */
-.ui-navbar .ui-icon {
-	margin-top: 0 !important;
-}
-
 /* supporting original icons */
 .ui-icon-plus, .ui-icon-minus, .ui-icon-delete, .ui-icon-arrow-r,
 .ui-icon-arrow-l, .ui-icon-arrow-u, .ui-icon-arrow-d, .ui-icon-check,
