@@ -125,9 +125,7 @@
 	src: url('font/fontawesome-webfont.eot');
 	src: url('font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
 		url('font/fontawesome-webfont.woff') format('woff'),
-		url('font/fontawesome-webfont.ttf') format('truetype'),
-		url('font/fontawesome-webfont.svgz#FontAwesomeRegular') format('svg'),
-		url('font/fontawesome-webfont.svg#FontAwesomeRegular') format('svg');
+		url('font/fontawesome-webfont.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -146,13 +144,54 @@
 }
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
+.ui-icon-cloud-download:before       { content: "\f0ed"; margin-left: 2px; }
+.ui-icon-cloud-upload:before         { content: "\f0ee"; margin-left: 2px; }
+.ui-icon-lightbulb:before            { content: "\f0eb";  margin-top: 1px; margin-left: 3px; }
+.ui-icon-exchange:before             { content: "\f0ec"; }
+.ui-icon-bell-alt:before             { content: "\f0f3"; }
+.ui-icon-file-alt:before             { content: "\f0f6"; }
+.ui-icon-beer:before                 { content: "\f0fc";  margin-top: 1px; margin-left: 2px; }
+.ui-icon-coffee:before               { content: "\f0f4"; margin-left: 2px; }
+.ui-icon-food:before                 { content: "\f0f5"; margin-top: 1px; margin-left: 4px; }
+.ui-icon-fighter-jet:before          { content: "\f0fb"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-user-md:before              { content: "\f0f0"; }
+.ui-icon-stethoscope:before          { content: "\f0f1"; margin-top: 1px; margin-left: 4px; }
+.ui-icon-suitcase:before             { content: "\f0f2";; margin-left: 2px; }
+.ui-icon-building:before             { content: "\f0f7"; }
+.ui-icon-hospital:before             { content: "\f0f8"; margin-left: 4px; }
+.ui-icon-ambulance:before            { content: "\f0f9"; margin-top: 1px; margin-left: 1px; }
+.ui-icon-medkit:before               { content: "\f0fa"; margin-top: 0px; margin-left: 2px; }
+.ui-icon-h-sign:before               { content: "\f0fd"; }
+.ui-icon-plus-sign-alt:before        { content: "\f0fe"; }
+.ui-icon-spinner:before              { content: "\f110"; }
+.ui-icon-angle-left:before           { content: "\f104"; }
+.ui-icon-angle-right:before          { content: "\f105"; }
+.ui-icon-angle-up:before             { content: "\f106"; }
+.ui-icon-angle-down:before           { content: "\f107"; }
+.ui-icon-double-angle-left:before    { content: "\f100"; }
+.ui-icon-double-angle-right:before   { content: "\f101"; margin-left: 4px; }
+.ui-icon-double-angle-up:before      { content: "\f102"; }
+.ui-icon-double-angle-down:before    { content: "\f103"; margin-top: 1px; }
+.ui-icon-circle-blank:before         { content: "\f10c"; }
+.ui-icon-circle:before               { content: "\f111"; }
+.ui-icon-desktop:before              { content: "\f108"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-laptop:before               { content: "\f109"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-tablet:before               { content: "\f10a"; margin-top: 1px; }
+.ui-icon-mobile-phone:before         { content: "\f10b"; }
+.ui-icon-quote-left:before           { content: "\f10d"; }
+.ui-icon-quote-right:before          { content: "\f10e"; }
+.ui-icon-github-alt:before           { content: "\f113"; }
+.ui-icon-folder-close-alt:before     { content: "\f114"; }
+.ui-icon-folder-open-alt:before      { content: "\f115"; }
+
 .ui-icon-glass:before                { content: "\f000"; margin-top: 2px; }
 .ui-icon-music:before                { content: "\f001"; margin-left: 1px; margin-top: 2px; }
 .ui-icon-fasearch:before               { content: "\f002"; }
-.ui-icon-envelope:before             { content: "\f003"; margin-left: -1px;
-										margin-left: 2px;
-										margin-top: 1px;
-									}
+.ui-icon-envelope:before             { content: "\f003";
+						margin-left: -1px;
+						margin-left: 2px;
+						margin-top: 1px;
+					}
 .ui-icon-heart:before                { content: "\f004";
 										margin-left: 3px;
 										margin-top: 2px;
