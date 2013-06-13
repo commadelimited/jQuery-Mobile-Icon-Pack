@@ -144,7 +144,7 @@
 }
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
-.ui-icon-cloud-download:before       { content: "\f0ed"; margin-left: 2px; }
+.ui-icon-cloud-download:before       { content: "\f118"; }
 .ui-icon-cloud-upload:before         { content: "\f0ee"; margin-left: 2px; }
 .ui-icon-lightbulb:before            { content: "\f0eb";  margin-top: 1px; margin-left: 3px; }
 .ui-icon-exchange:before             { content: "\f0ec"; }
@@ -417,3 +417,127 @@
 .ui-icon-paste:before                { content: "\f0ea"; }
 
 .ui-icon-user-md:before              { content: "\f200"; }
+
+
+// Updated June 12, 2013
+.ui-icon-expand-alt:before { content: "\f116"; }
+.ui-icon-collapse-alt:before { content: "\f117"; }
+.ui-icon-smile:before { content: "\f118"; }
+.ui-icon-frown:before { content: "\f119"; }
+.ui-icon-meh:before { content: "\f11a"; }
+.ui-icon-gamepad:before { content: "\f11b"; }
+.ui-icon-keyboard:before { content: "\f11c"; }
+.ui-icon-flag-alt:before { content: "\f11d"; }
+.ui-icon-flag-checkered:before { content: "\f11e"; }
+.ui-icon-terminal:before { content: "\f120"; }
+.ui-icon-code:before { content: "\f121"; }
+.ui-icon-reply-all:before { content: "\f122"; }
+.ui-icon-mail-reply-all:before { content: "\f122"; }
+.ui-icon-star-half-full:before,
+.ui-icon-star-half-empty:before { content: "\f123"; }
+.ui-icon-location-arrow:before { content: "\f124"; }
+.ui-icon-crop:before { content: "\f125"; }
+.ui-icon-code-fork:before { content: "\f126"; }
+.ui-icon-unlink:before { content: "\f127"; }
+.ui-icon-question:before { content: "\f128"; }
+.ui-icon-info:before { content: "\f129"; }
+.ui-icon-exclamation:before { content: "\f12a"; }
+.ui-icon-superscript:before { content: "\f12b"; }
+.ui-icon-subscript:before { content: "\f12c"; }
+.ui-icon-eraser:before { content: "\f12d"; }
+.ui-icon-puzzle-piece:before { content: "\f12e"; }
+.ui-icon-microphone:before { content: "\f130"; }
+.ui-icon-microphone-off:before { content: "\f131"; }
+.ui-icon-shield:before { content: "\f132"; }
+.ui-icon-calendar-empty:before { content: "\f133"; }
+.ui-icon-fire-extinguisher:before { content: "\f134"; }
+.ui-icon-rocket:before { content: "\f135"; }
+.ui-icon-maxcdn:before { content: "\f136"; }
+.ui-icon-chevron-sign-left:before { content: "\f137"; }
+.ui-icon-chevron-sign-right:before { content: "\f138"; }
+.ui-icon-chevron-sign-up:before { content: "\f139"; }
+.ui-icon-chevron-sign-down:before { content: "\f13a"; }
+.ui-icon-html5:before { content: "\f13b"; }
+.ui-icon-css3:before { content: "\f13c"; }
+.ui-icon-anchor:before { content: "\f13d"; }
+.ui-icon-unlock-alt:before { content: "\f13e"; }
+.ui-icon-bullseye:before { content: "\f140"; }
+.ui-icon-ellipsis-horizontal:before { content: "\f141"; }
+.ui-icon-ellipsis-vertical:before { content: "\f142"; }
+.ui-icon-rss-sign:before { content: "\f143"; }
+.ui-icon-play-sign:before { content: "\f144"; }
+.ui-icon-ticket:before { content: "\f145"; }
+.ui-icon-minus-sign-alt:before { content: "\f146"; }
+.ui-icon-check-minus:before { content: "\f147"; }
+.ui-icon-level-up:before { content: "\f148"; }
+.ui-icon-level-down:before { content: "\f149"; }
+.ui-icon-check-sign:before { content: "\f14a"; }
+.ui-icon-edit-sign:before { content: "\f14b"; }
+.ui-icon-external-link-sign:before { content: "\f14c"; }
+.ui-icon-share-sign:before { content: "\f14d"; }
+.ui-icon-compass:before { content: "\f14e"; }
+.ui-icon-collapse:before { content: "\f150"; }
+.ui-icon-collapse-top:before { content: "\f151"; }
+.ui-icon-expand:before { content: "\f152"; }
+.ui-icon-euro:before,
+.ui-icon-eur:before { content: "\f153"; }
+.ui-icon-gbp:before { content: "\f154"; }
+.ui-icon-dollar:before,
+.ui-icon-usd:before { content: "\f155"; }
+.ui-icon-rupee:before,
+.ui-icon-inr:before { content: "\f156"; }
+.ui-icon-yen:before,
+.ui-icon-jpy:before { content: "\f157"; }
+.ui-icon-renminbi:before,
+.ui-icon-cny:before { content: "\f158"; }
+.ui-icon-won:before,
+.ui-icon-krw:before { content: "\f159"; }
+.ui-icon-bitcoin:before,
+.ui-icon-btc:before { content: "\f15a"; }
+.ui-icon-file:before { content: "\f15b"; }
+.ui-icon-file-text:before { content: "\f15c"; }
+.ui-icon-sort-by-alphabet:before { content: "\f15d"; }
+.ui-icon-sort-by-alphabet-alt:before { content: "\f15e"; }
+.ui-icon-sort-by-attributes:before { content: "\f160"; }
+.ui-icon-sort-by-attributes-alt:before { content: "\f161"; }
+.ui-icon-sort-by-order:before { content: "\f162"; }
+.ui-icon-sort-by-order-alt:before { content: "\f163"; }
+.ui-icon-thumbs-up:before { content: "\f164"; }
+.ui-icon-thumbs-down:before { content: "\f165"; }
+.ui-icon-youtube-sign:before { content: "\f166"; }
+.ui-icon-youtube:before { content: "\f167"; }
+.ui-icon-xing:before { content: "\f168"; }
+.ui-icon-xing-sign:before { content: "\f169"; }
+.ui-icon-youtube-play:before { content: "\f16a"; }
+.ui-icon-dropbox:before { content: "\f16b"; }
+.ui-icon-stackexchange:before { content: "\f16c"; }
+.ui-icon-instagram:before { content: "\f16d"; }
+.ui-icon-flickr:before { content: "\f16e"; }
+.ui-icon-adn:before { content: "\f170"; }
+.ui-icon-bitbucket:before { content: "\f171"; }
+.ui-icon-bitbucket-sign:before { content: "\f172"; }
+.ui-icon-tumblr:before { content: "\f173"; }
+.ui-icon-tumblr-sign:before { content: "\f174"; }
+.ui-icon-long-arrow-down:before { content: "\f175"; }
+.ui-icon-long-arrow-up:before { content: "\f176"; }
+.ui-icon-long-arrow-left:before { content: "\f177"; }
+.ui-icon-long-arrow-right:before { content: "\f178"; }
+.ui-icon-apple:before { content: "\f179"; }
+.ui-icon-windows:before { content: "\f17a"; }
+.ui-icon-android:before { content: "\f17b"; }
+.ui-icon-linux:before { content: "\f17c"; }
+.ui-icon-dribble:before { content: "\f17d"; }
+.ui-icon-skype:before { content: "\f17e"; }
+.ui-icon-foursquare:before { content: "\f180"; }
+.ui-icon-trello:before { content: "\f181"; }
+.ui-icon-female:before { content: "\f182"; }
+.ui-icon-male:before { content: "\f183"; }
+.ui-icon-gittip:before { content: "\f184"; }
+.ui-icon-sun:before { content: "\f185"; }
+.ui-icon-moon:before { content: "\f186"; }
+.ui-icon-archive:before { content: "\f187"; }
+.ui-icon-bug:before { content: "\f188"; }
+.ui-icon-vk:before { content: "\f189"; }
+.ui-icon-weibo:before { content: "\f18a"; }
+.ui-icon-renren:before { content: "\f18b"; }
+
