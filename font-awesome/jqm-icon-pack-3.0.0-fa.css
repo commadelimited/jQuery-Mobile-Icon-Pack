@@ -470,7 +470,7 @@
 
 .ui-icon-external-link:before { content: "\f08e"; }
 
-.ui-icon-signin:before { content: "\f090"; }
+.ui-icon-signin:befomarginre { content: "\f090"; }
 
 .ui-icon-trophy:before { content: "\f091"; }
 
@@ -624,37 +624,41 @@
 
 .ui-icon-collapse-alt:before { content: "\f117"; }
 
-.ui-icon-smile:before { content: "\f118"; }
+.ui-icon-smile:before { content: "\f118"; margin-top: 1px; }
 
-.ui-icon-frown:before { content: "\f119"; }
+.ui-icon-frown:before { content: "\f119"; margin-top: 1px; }
 
-.ui-icon-meh:before { content: "\f11a"; }
+.ui-icon-meh:before { content: "\f11a"; margin-top: 1px; }
 
-.ui-icon-gamepad:before { content: "\f11b"; }
+.ui-icon-gamepad:before { content: "\f11b"; margin-left: 1px; }
 
-.ui-icon-keyboard:before { content: "\f11c"; }
+.ui-icon-keyboard:before { content: "\f11c"; margin-left: 1px; }
 
-.ui-icon-flag-alt:before { content: "\f11d"; }
+.ui-icon-flag-alt:before { content: "\f11d"; margin-top: 1px; margin-left: 2px; }
 
-.ui-icon-flag-checkered:before { content: "\f11e"; }
+.ui-icon-flag-checkered:before { content: "\f11e"; margin-top: 1px; margin-left: 2px; }
 
 .ui-icon-terminal:before { content: "\f120"; }
 
-.ui-icon-code:before { content: "\f121"; }
+.ui-icon-code:before { content: "\f121"; margin-left: 2px; }
 
-.ui-icon-reply-all:before { content: "\f122"; }
+.ui-icon-reply-all:before { content: "\f122"; margin-top: 1px; margin-left: 2px; }
 
-.ui-icon-mail-reply-all:before { content: "\f122"; }
+.ui-icon-mail-reply-all:before { content: "\f122"; margin-top: 1px; margin-left: 2px; }
 
-.ui-icon-star-half-full:before, .ui-icon-star-half-empty:before { content: "\f123"; }
+.ui-icon-star-half-full:before, .ui-icon-star-half-empty:before { content: "\f123"; margin-top: 1px; margin-left: 3px; }
 
 .ui-icon-location-arrow:before { content: "\f124"; }
 
 .ui-icon-crop:before { content: "\f125"; }
 
-.ui-icon-code-fork:before { content: "\f126"; }
+.ui-icon-code-fork:before { content: "\f126"; margin-top: 1px; margin-left: 3px; }
 
-.ui-icon-unlink:before { content: "\f127"; }
+.ui-icon-location-arrow:before { content: "\f124"; }
+
+.ui-icon-unlink:before { content: "\f127"; margin-top: 1px; margin-left: 3px; }
+
+.ui-icon-location-arrow:before { content: "\f124"; }
 
 .ui-icon-question:before { content: "\f128"; }
 
