@@ -71,17 +71,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/original\/images\/ajax-loader.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/original\/images\/ajax-loader.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/original\/images\/ajax-loader.png",
-      "initialSize" : 340,
-      "fileType" : 8192
-    },
     "\/font-awesome\/faicons.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -93,15 +82,15 @@
       "initialSize" : 110982,
       "fileType" : 8192
     },
-    "\/font-awesome\/images\/icons-18-white-pack.png" : {
+    "\/original\/images\/icons-36-black-pack.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font-awesome\/images\/icons-18-white-pack.png",
+      "inputAbbreviatedPath" : "\/original\/images\/icons-36-black-pack.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/font-awesome\/images\/icons-18-white-pack.png",
-      "initialSize" : 12001,
+      "outputAbbreviatedPath" : "\/original\/images\/icons-36-black-pack.png",
+      "initialSize" : 19126,
       "fileType" : 8192
     },
     "\/font-awesome\/images\/ajax-loader.png" : {
@@ -115,15 +104,26 @@
       "initialSize" : 366,
       "fileType" : 8192
     },
-    "\/original\/images\/icons-36-black-pack.png" : {
+    "\/original\/images\/ajax-loader.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/original\/images\/icons-36-black-pack.png",
+      "inputAbbreviatedPath" : "\/original\/images\/ajax-loader.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/original\/images\/icons-36-black-pack.png",
-      "initialSize" : 19126,
+      "outputAbbreviatedPath" : "\/original\/images\/ajax-loader.png",
+      "initialSize" : 340,
+      "fileType" : 8192
+    },
+    "\/font-awesome\/images\/icons-18-white-pack.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/font-awesome\/images\/icons-18-white-pack.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/font-awesome\/images\/icons-18-white-pack.png",
+      "initialSize" : 12001,
       "fileType" : 8192
     },
     "\/font-awesome\/jqm-icon-pack-fa.scss" : {
@@ -138,17 +138,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/original\/images\/icons-36-white-pack.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/original\/images\/icons-36-white-pack.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/original\/images\/icons-36-white-pack.png",
-      "initialSize" : 20845,
-      "fileType" : 8192
-    },
     "\/original\/images\/icons-18-black-pack.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -158,6 +147,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/original\/images\/icons-18-black-pack.png",
       "initialSize" : 11300,
+      "fileType" : 8192
+    },
+    "\/original\/images\/icons-36-white-pack.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/original\/images\/icons-36-white-pack.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/original\/images\/icons-36-white-pack.png",
+      "initialSize" : 20845,
       "fileType" : 8192
     },
     "\/original\/index.html" : {
