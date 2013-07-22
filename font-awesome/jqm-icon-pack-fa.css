@@ -65,7 +65,7 @@
 /* begin primary declarations */
 @font-face { font-family: 'FontAwesome'; src: url("font/fontawesome-webfont.eot"); src: url("font/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("font/fontawesome-webfont.woff") format("woff"), url("font/fontawesome-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 [class^="ui-icon-"]:before, [class*=" ui-icon-"]:before { font-family: FontAwesome !important; font-weight: normal; font-style: normal; display: inline-block; }
-.ui-icon:not(.ui-icon-loading), .ui-icon-searchfield::after { background: #666666; background: rgba(0, 0, 0, 0.4); color: #ffffff; font-weight: normal; text-shadow: none; }
+.ui-icon:not(.ui-icon-loading), .ui-icon-searchfield:after { background: #666666; background: rgba(0, 0, 0, 0.4); color: #ffffff; font-weight: normal; text-shadow: none; }
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen readers do not read off random characters that represent icons */
 .ui-icon-cloud-download:before { content: "\f118"; }
 .ui-icon-cloud-upload:before { content: "\f0ee"; margin-left: 2px; }
