@@ -65,7 +65,13 @@
 /* begin primary declarations */
 @font-face { font-family: 'FontAwesome'; src: url("font/fontawesome-webfont.eot"); src: url("font/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("font/fontawesome-webfont.woff") format("woff"), url("font/fontawesome-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 [class^="ui-icon-"]:before, [class*=" ui-icon-"]:before { font-family: FontAwesome !important; font-weight: normal; font-style: normal; display: inline-block; }
+<<<<<<< HEAD
 .ui-icon:not(.ui-icon-loading), .ui-icon-searchfield:after { background: #666666; background: rgba(0, 0, 0, 0.4); color: #ffffff; font-weight: normal; text-shadow: none; }
+=======
+.ui-icon:not(.ui-icon-loading), .ui-icon-searchfield::after { background: #666666; background: rgba(0, 0, 0, 0.4); color: #ffffff; font-weight: normal; text-shadow: none; }
+/* Adding support for ui-icon-nodisc using jQuery Mobile 1.3.1 and jQuery Mobile Icon Pack with Font Awesome 3.2 */
+.ui-icon-nodisc .ui-icon, .ui-icon-nodisc .ui-icon-searchfield:after, .ui-icon-nodisc .ui-icon-alt .ui-icon, .ui-icon-nodisc .ui-icon-alt .ui-icon-searchfield:after { background-color: transparent; }
+>>>>>>> a1469833d2d2e93c9cb357cf2561387c4dcc28d9
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen readers do not read off random characters that represent icons */
 .ui-icon-cloud-download:before { content: "\f118"; }
 .ui-icon-cloud-upload:before { content: "\f0ee"; margin-left: 2px; }
