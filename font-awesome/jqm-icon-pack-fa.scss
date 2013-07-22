@@ -135,7 +135,7 @@
 	font-style: normal;
 	display: inline-block;
 }
-.ui-icon:not(.ui-icon-loading), .ui-icon-searchfield::after {
+.ui-icon:not(.ui-icon-loading), .ui-icon-searchfield:after {
 	background: #666666;
 	background: rgba(0, 0, 0, .4);
 	color: #ffffff;
