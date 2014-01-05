@@ -1,3 +1,5 @@
 *~
 .livereload
 .DS_Store
+.bundle
+Gemfile.lock
