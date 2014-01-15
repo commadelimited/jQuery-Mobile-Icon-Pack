@@ -17,7 +17,7 @@ If you're looking to support jQuery Mobile 1.3 (or lower) applications, you can 
 
 ## Quick start
 
-Clone the git repo - `git clone git@github.com:commadelimited/jQuery-Mobile-Icon-Pack.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/zipball/master). Open up index.html in your browser, preview to your hearts content. The icon definitions are 100% contained within the `jqm-icon-pack-fa.css` CSS file in the root of the repository.
+Clone the git repo - `git clone https://github.com/commadelimited/jQuery-Mobile-Icon-Pack.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/zipball/master). Open up index.html in your browser, preview to your hearts content. The icon definitions are 100% contained within the `jqm-icon-pack-fa.css` CSS file in the root of the repository.
 
 While this is a good way to get familiar with Icon Pack, it's not recommended that you use this file for production use.
 
