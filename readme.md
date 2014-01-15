@@ -2,7 +2,7 @@
 
 Extending jQuery Mobile's default icon set.
 
-jQuery Mobile Icon Pack is based on based on [Font Awesome](http://fortawesome.github.com/Font-Awesome/) and includes icons from a wide range of categories including currency symbols, media control, social media, common application icons, and more. There are 369 icons which cover just about any icon you'd need in your application. You can use easily these icons in conjunction with jQuery Mobile's default icon set.
+jQuery Mobile Icon Pack is based on based on the [Font Awesome](http://fortawesome.github.com/Font-Awesome/) library and includes 369 icons from a wide range of categories including currency symbols, media control, social media, common application icons, and more. You can use easily these icons in conjunction with jQuery Mobile's default icon set.
 
 [View a demo of Icon Pack](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/).
 
