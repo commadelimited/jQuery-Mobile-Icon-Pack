@@ -19,7 +19,7 @@ module.exports = function(grunt) {
             sass: {
                 options: {
                     // Monitor Sass files for changes and compile them, but don't reload the browser.
-                    livereload: false,
+                    livereload: false
                 },
                 files: '**/*.scss',
                 tasks: ['sass'],
