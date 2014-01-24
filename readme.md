@@ -2,28 +2,33 @@
 
 Extending jQuery Mobile's default icon set.
 
-This repository offers two options. A set of 33 custom icons (the original Icon Pack). Icon categories include currency symbols, media control, social media, common application icons, and more. It also cleans up the original icons and makes them a little sharper. It also includes crisp hi-res icons for retina displays. The icon pack overrides the default icon set completely.
+jQuery Mobile Icon Pack is based on based on the [Font Awesome](http://fortawesome.github.com/Font-Awesome/) library and includes 369 icons from a wide range of categories including currency symbols, media control, social media, common application icons, and more. You can use easily these icons in conjunction with jQuery Mobile's default icon set.
 
-There's also an entire icon set using Bootstrap's [Font Awesome](http://fortawesome.github.com/Font-Awesome/). 361 icons which cover just about any icon you'd need in your application. The Font Awesome collection allows you to use these icons in conjunction with jQuery Mobile's default icon set.
+[View a demo of Icon Pack](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/).
 
-Included in the Font Awesome icon set are all original icons, as well as the extended icons.
+[Download a custom build of Icon Pack.](http://jqmiconpack.andymatthews.net/)
 
-## Examples
+**Note that the custom build only supports 1.3.x and below at this point. I'll be releasing an update soon with jQuery Mobile 1.4 support.**
 
-[View the Original Icons](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/original/) | [View the Font Awesome Icons](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/font-awesome/)
+## Major upgrade
+This version of Icon Pack is a **breaking upgrade** from previous versions of jQuery Mobile. Previously jQuery Mobile used the `:after` property to apply the PNG icons to the specified container. In jQuery Mobile 1.4 the team chose to look to the future and apply SVG icons with the `background-image` property. In addition to this decision they've inlined the actual file contents of each icon using [Data URIs](http://css-tricks.com/data-uris/). While this does increase the size of the resulting CSS, it also means there are no external dependencies (not counting the PNG fallbacks).
+
+If you're looking to support jQuery Mobile 1.3 (or lower) applications, you can use the [1.3.x tagged build](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/releases/tag/v1.3.x) for that release.
 
 ## Quick start
 
-Clone the git repo - `git clone git@github.com:commadelimited/jQuery-Mobile-Icon-Pack.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/zipball/master)
+Clone the git repo - `git clone https://github.com/commadelimited/jQuery-Mobile-Icon-Pack.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/zipball/master). Open up index.html in your browser, preview to your hearts content. The icon definitions are 100% contained within the `jqm-icon-pack-fa.css` CSS file in the root of the repository.
 
-## Original Icon Pack Usage
-Drop `jqm-icon-pack-2.0-original.css` and the associated images folder into your project. Image files are relative to the CSS file just like the original icons are. Use them just as you would the standard icons.
+While this is a good way to get familiar with Icon Pack, it's not recommended that you use this file for production use.
 
 ## Font Awesome Icon Pack Usage
-Drop `jqm-icon-pack-fa.css` and the associated font folder into your project. Font files are relative to the CSS file just like the original icons are. Use them just as you would the standard icons.
+
+Drop `jqm-icon-pack-fa.css` and the associated `png_images` folder into your project. Images are relative to the CSS file. Use them just as you would the standard icons.
 
 ## My License
 Dual license: MIT/GPL
 
 ## Font Awesome License
-Version 3.2 of the Font Awesome font, CSS, and LESS files are licensed under CC BY 3.0: http://creativecommons.org/licenses/by/3.0/ A mention of 'Font Awesome - http://fortawesome.github.com/Font-Awesome' in human-readable source code is considered acceptable attribution (most common on the web). If human readable source code is not available to the end user, a mention in an 'About' or 'Credits' screen is considered acceptable (most common in desktop or mobile software).
+The [Font Awesome license](http://fontawesome.io/license/) can be seen on their website.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/commadelimited/jquery-mobile-icon-pack/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
