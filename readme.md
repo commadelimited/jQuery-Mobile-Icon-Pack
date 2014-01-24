@@ -30,3 +30,5 @@ Dual license: MIT/GPL
 
 ## Font Awesome License
 The [Font Awesome license](http://fontawesome.io/license/) can be seen on their website.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/commadelimited/jquery-mobile-icon-pack/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
