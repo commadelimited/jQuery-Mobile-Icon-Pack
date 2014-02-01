@@ -6,7 +6,7 @@ jQuery Mobile Icon Pack is based on based on the [Font Awesome](http://fortaweso
 
 [View a demo of Icon Pack](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/).
 
-[Build your own custom Icon Pack.](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/)
+[Build your own custom Icon Pack.](http://andymatthews.net/code/jQuery-Mobile-Icon-Pack/builder/)
 
 ## Major upgrade
 This version of Icon Pack is a **breaking upgrade** from previous versions of jQuery Mobile. Previously jQuery Mobile used the `:after` property to apply the PNG icons to the specified container. In jQuery Mobile 1.4 the team chose to look to the future and apply SVG icons with the `background-image` property. In addition to this decision they've inlined the actual file contents of each icon using [Data URIs](http://css-tricks.com/data-uris/). While this does increase the size of the resulting CSS, it also means there are no external dependencies (not counting the PNG fallbacks).
