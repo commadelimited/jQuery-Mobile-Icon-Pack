@@ -8,10 +8,24 @@ module.exports = function(grunt) {
             dist: {
                 options: {
                     trace: true,
-                    style: 'compressed'
+                    style: 'expanded'
                 },
                 files: {
                     'jqm-icon-pack-fa.css': 'jqm-icon-pack-fa.scss'
+                }
+            }
+        },
+        grunticon: {
+            iconPack: {
+                files: [{
+                    expand: true,
+                    cwd: 'source/SVG',
+                    src: ['*.svg', '*.png'],
+                    dest: "dist"
+                }],
+                options: {
+                    cssprefix: '.ui-icon-',
+                    template: "source/template.hbs"
                 }
             }
         },
@@ -36,6 +50,7 @@ module.exports = function(grunt) {
     });
 
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.registerTask('default', ['sass']);
+    grunt.loadNpmTasks('grunt-grunticon');
+    grunt.registerTask('default', ['grunticon', 'sass']);
 
 };

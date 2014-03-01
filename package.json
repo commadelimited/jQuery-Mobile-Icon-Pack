@@ -10,6 +10,7 @@
         "grunt": "~0.4.2",
         "grunt-contrib-watch": "~0.5.1",
         "grunt-contrib-sass": "~0.4.1",
+        "grunt-grunticon": "~1.0.0",
         "matchdep": "~0.1.2"
     }
 }
