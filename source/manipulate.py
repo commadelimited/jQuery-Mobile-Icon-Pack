@@ -57,6 +57,7 @@ def stringify(xml):
     xml = xml.replace(',', '%2C')
     xml = xml.replace('/', '%2F')
     xml = xml.replace(':', '%3A')
+    xml = xml.replace(';', '%3B')
     xml = xml.replace('\n', ' ')
 
     return xml
@@ -71,6 +72,7 @@ def destringify(str):
     str = str.replace('%2C', ',')
     str = str.replace('%2F', '/')
     str = str.replace('%3A', ':')
+    str = str.replace('%3B', ';')
     return str
 
 def make_html_template(name):
