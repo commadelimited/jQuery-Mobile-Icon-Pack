@@ -25,7 +25,8 @@ module.exports = function(grunt) {
                 }],
                 options: {
                     cssprefix: '.ui-icon-',
-                    template: "source/template.hbs"
+                    previewhtml: 'index.html',
+                    template: "source/css_template.hbs"
                 }
             }
         },
