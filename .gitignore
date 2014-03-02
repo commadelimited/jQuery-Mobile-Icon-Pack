@@ -4,4 +4,4 @@
 .bundle
 Gemfile.lock
 *.pyc
-dist
+source/SVG_BAK

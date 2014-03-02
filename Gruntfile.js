@@ -11,7 +11,7 @@ module.exports = function(grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    'jqm-icon-pack-fa.css': 'jqm-icon-pack-fa.scss'
+                    'dist/jqm-icon-pack-fa.css': 'dist/jqm-icon-pack-fa.scss'
                 }
             }
         },
@@ -25,6 +25,7 @@ module.exports = function(grunt) {
                 }],
                 options: {
                     cssprefix: '.ui-icon-',
+                    datasvgcss: 'jqm-icon-pack-fa.scss',
                     previewhtml: 'index.html',
                     template: "source/css_template.hbs"
                 }
