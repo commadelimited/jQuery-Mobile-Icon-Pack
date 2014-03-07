@@ -15,13 +15,15 @@ If you're looking to support jQuery Mobile 1.3 (or lower) applications, you can 
 
 ## Quick start
 
-Clone the git repo - `git clone https://github.com/commadelimited/jQuery-Mobile-Icon-Pack.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/zipball/master). Open up index.html in your browser, preview to your hearts content. The icon definitions are 100% contained within the `jqm-icon-pack-fa.css` CSS file in the root of the repository.
+Clone the git repo - `git clone https://github.com/commadelimited/jQuery-Mobile-Icon-Pack.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/zipball/master). Open up index.html in your browser, preview to your hearts content. The icon definitions are 100% contained within the `jqm-icon-pack-fa.css` CSS file in the `dist` folder within this repository.
+
+If you so desire, run `npm install` and build the icons from scratch by running the `grunt` command.
 
 While this is a good way to get familiar with Icon Pack, it's not recommended that you use this file for production use.
 
 ## Font Awesome Icon Pack Usage
 
-Drop `jqm-icon-pack-fa.css` and the associated `png_images` folder into your project. Images are relative to the CSS file. Use them just as you would the standard icons.
+Drop `dist/jqm-icon-pack-fa.css` and the associated `png` folder into your project. Images are relative to the CSS file. Use them just as you would the standard icons.
 
 ## My License
 Dual license: MIT/GPL
