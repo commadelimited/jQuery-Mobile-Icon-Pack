@@ -13,6 +13,20 @@ This version of Icon Pack is a **breaking upgrade** from previous versions of jQ
 
 If you're looking to support jQuery Mobile 1.3 (or lower) applications, you can use the [1.3.x tagged build](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/releases/tag/v1.3.x) for that release.
 
+### Centered Icons
+
+Every jQuery Mobile app is slightly different. In many cases sizes, and positions, of icons are also different. To that end I've intentionally not applied any sort of alignment or positioning of the icons contained within Icon Pack. This means that in the demos some of the icons might be centered, some of them might be aligned to the left. **This is by design (at least for the time being)**.
+
+If you need to adjust the position of icons in your implementation, here's how you do it. In your CSS, for the icon you'd like to position, add a `background-position` declaration. Here's an example for the `adjust` icon:
+
+```
+.ui-icon-adjust:after {
+    background-image: url("<url removed for brevity>");
+    background-repeat: no-repeat;
+    background-position: 4px 3px;
+}
+```
+
 ## Quick start
 
 Clone the git repo - `git clone https://github.com/commadelimited/jQuery-Mobile-Icon-Pack.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Icon-Pack/zipball/master). Open up index.html in your browser, preview to your hearts content. The icon definitions are 100% contained within the `jqm-icon-pack-fa.css` CSS file in the `dist` folder within this repository.
