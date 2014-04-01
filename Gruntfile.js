@@ -53,15 +53,15 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-grunticon');
-    grunt.registerTask('default', ['grunticon', 'sass', 'prepare-for-builder', 'cleanup']);
-    grunt.registerTask('prepare-for-builder', 'Prepare Icon Pack for Builder import', function() {
+    grunt.registerTask('default', ['grunticon', 'sass', 'prepare-css-for-builder', 'prepare-icons-cfm-for-builder', 'cleanup']);
+    grunt.registerTask('prepare-css-for-builder', 'Prepare Icon Pack for Builder import', function() {
         console.log('Beginning conversion of CSS');
 
         // Open dist/jqm-icon-pack-fa.css
         var fs = require('fs'),
             finalArr = [],
             inFile = __dirname + '/dist/jqm-icon-pack-fa.css',
-            outFile = __dirname + '/dist/jqm-icon-pack-fa-builder.css',
+            outFileCSS = __dirname + '/dist/jqm-icon-pack-fa-builder.css',
             file_contents,
             tmpStr;
 
@@ -73,19 +73,55 @@ module.exports = function(grunt) {
 
         // Loop over file contents
         file_contents.forEach(function(el, i){
-            // Copy any declaration beginning with `.ui-icon-` into memory
+            // Match any declaration beginning with `.ui-icon-`
             if (el.match(/^\.ui-icon/)) {
                 // convert declaration from `.ui-icon-<icon>:after` to `li .<icon>`
                 // also change color from white to black
-                tmpStr = el.replace('.ui-icon-','li \.').replace(':after', '').replace('ffffff', '000000');
+                tmpStr = el.replace('.ui-icon-','li .').replace(':after', '').replace('ffffff', '000000');
                 finalArr.push(tmpStr);
             }
         });
 
         // save as file `jqm-icon-pack-fa-builder.css`
-        fs.writeFileSync(outFile, finalArr.join('\n'));
+        fs.writeFileSync(outFileCSS, finalArr.join('\n'));
 
         console.log('CSS conversion complete');
+    });
+    grunt.registerTask('prepare-icons-cfm-for-builder', 'Prepare icons.cfm for Builder import', function() {
+        console.log('Beginning creation of icons.cfm');
+
+        // Open dist/jqm-icon-pack-fa.css
+        var fs = require('fs'),
+            inFile = __dirname + '/dist/jqm-icon-pack-fa.css',
+            outFileCFM = __dirname + '/dist/icons.cfm',
+            file_contents,
+            icon,
+            xml,
+            output = '',
+            wrapper = '<cfset variables.icon_array = [OUTPUT]>',
+            tmpl = '{name = "NAME", xml = "XML"},\n\n';
+
+        // make sure CSS file exists
+        if (!fs.existsSync(inFile)) return false;
+
+        // read the file
+        file_contents = fs.readFileSync(inFile).toString().split('\n\n');
+
+        // Loop over file contents
+        file_contents.forEach(function(el, i){
+            // Match any declaration beginning with `.ui-icon-`
+            if (el.match(/^\.ui-icon/)) {
+                icon = el.match('^.ui-icon-([-a-z0-9]+):')[1];
+                xml = el.match(/url\("(.*)"\)/)[1];
+                output += tmpl.replace('NAME',icon).replace('XML',xml);
+            }
+        });
+
+        // save as file `icons.cfm`, minus trailing comma
+        // fs.writeFileSync(outFileCFM, wrapper.replace('OUTPUT', output.replace(/[ \n\t,]+$/gi, '')));
+        fs.writeFileSync(outFileCFM, wrapper.replace('OUTPUT', output.replace(/[ \n\t,]+$/gi, '')));
+
+        console.log('Icons.cfm file creation complete');
     });
     grunt.registerTask('cleanup', 'Assorted project cleanup', function() {
         // delete unwanted dist/* files
